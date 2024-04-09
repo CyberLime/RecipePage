@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+:root {
+  --nutmeg: hsl(14, 45%, 36%);
+  --dark-raspberry: hsl(332, 51%, 32%);
+  --rose-white: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --light-grey: hsl(30, 18%, 87%);
+  --wenge-brown: hsl(30, 10%, 34%);
+  --dark-charcoal: hsl(24, 5%, 18%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+  color: var(--wenge-brown);
+}
+
+body {
+  background-color: var(--eggshell);
+}
+
+header, main {
+  background-color: #fff;
+}
+
+header {
+  width: 85%;
+  max-width: 800px;
+  padding: 30px;
+  margin: auto;
+}
+
+main {
+  width: 85%;
+  max-width: 800px;
+  padding: 30px;
+  margin: auto;
+}
+
+header img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+h1, h2 {
+  font-family: 'Young Serif';
+  font-weight: 400;
+}
+
+header h1 {
+  margin-top: 25px;
+  color: var(--dark-charcoal);
+}
+
+header p {
+  margin-top: 20px;
+}
+
+header h2 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  color: var(--dark-raspberry);
+  font-size: 18px;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+header ul {
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+header ul li {
+  margin-top: 10px;
+  color: var(--dark-raspberry);
+  font-size: 13px;
+}
+
+header ul li p {
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+main section:not(:first-of-type) {
+  margin-top: 60px;
+}
+main h1, main li, main th {
+  color: var(--nutmeg);
+}
+
+main ul, main ol {
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+main ul li, main ol li {
+  margin-top: 15px;
+  line-height: 25px;
+}
+
+main ul li {
+  font-size: 13px;
+}
+
+main ul li p {
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+main ol li {
+  font-weight: 700;
+}
+
+main ol li p {
+  margin-left: 15px;
+  font-weight: 400;
+}
+
+main p {
+  margin-top: 20px;
+}
+
+main table {
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+main table tr {
+  line-height: 50px;
+}
+
+main table th {
+  padding-left: 32%;
+  text-align: start;
+}
