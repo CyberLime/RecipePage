@@ -126,6 +126,7 @@ main p {
 main table {
   margin-top: 15px;
   margin-left: 30px;
+  width: 46%;
 }
 
 main table tr {
